@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Blog</title>
+  <link rel="stylesheet" href="blog-style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <h1>My Personal Blog</h1>
+    </div>
+  </header>
+
+  <!-- Category Filter -->
+  <section class="filter-section">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="Tech">Tech</button>
+    <button class="filter-btn" data-category="Travel">Travel</button>
+    <button class="filter-btn" data-category="Food">Food</button>
+  </section>
+
+  <!-- Blog Posts -->
+  <section class="blog-posts" id="blog-posts">
+    <!-- Blog cards will be dynamically inserted here -->
+  </section>
+
+  <!-- Pagination -->
+  <section class="pagination">
+    <button id="prev-btn">Prev</button>
+    <span id="page-info"></span>
+    <button id="next-btn">Next</button>
+  </section>
+
+  <script src="blog-script.js"></script>
+</body>
+</html>
 
